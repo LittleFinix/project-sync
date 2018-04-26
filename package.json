@@ -1,0 +1,12 @@
+{
+  "name": "project-sync",
+  "version": "1.0.0",
+  "main": "src/server/main.ts",
+  "repository": "https://github.com/LittleFinix/project-sync.git",
+  "author": "Littlefinix <littlefinix@hotmail.com>",
+  "contributors": [
+    "Handlock <juri.b@hotmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "private": true
+}
