@@ -1,4 +1,6 @@
 import * as React from "react"
+import "./styleTut.css"
+import * as myStyle from "./styleTut.css"
 
 export interface IFunnyButtonProps{
     buttonText: string;
@@ -26,10 +28,11 @@ export default class FunnyButton
             <p>{this.state.textboxtext}</p>
 
             <button 
-                style={{
+                id="testButton"
+              /*  style={{
                     backgroundColor: "green", 
                     color: "White"
-                }} 
+                }} */
                 onClick={() => this.clicked(this.state.textboxtext)}
             >
                 { this.props.buttonText }
