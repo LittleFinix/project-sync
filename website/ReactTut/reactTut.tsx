@@ -12,6 +12,26 @@ export interface IFunnyButtonState{
     textboxtext: string;
 }
 
+export interface IMenuBarProps{
+
+}
+
+export interface IMenuBarState{
+
+}
+
+export class MenuBar 
+        extends React.Component<IMenuBarProps, IMenuBarState>{
+        
+            render(){
+                return <React.Fragment>                
+                            <div>
+                            </div>    
+                    </React.Fragment>
+            }
+        
+}
+
 export default class FunnyButton 
         extends React.Component<IFunnyButtonProps, IFunnyButtonState>{
          
