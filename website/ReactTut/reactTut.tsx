@@ -25,7 +25,14 @@ export class MenuBar
         
             render(){
                 return <React.Fragment>                
-                            <div>
+                            <div id="SearchbarContainer">
+                            <button className="SearchButton">
+                                    >
+                                </button>
+                                <textarea className="Searchbar">
+                               
+                                </textarea>
+                               
                             </div>    
                     </React.Fragment>
             }

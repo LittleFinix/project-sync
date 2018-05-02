@@ -1,5 +1,34 @@
+body {
+  margin: 0px; }
+
 #testButton {
   background: violet;
   color: saddlebrown; }
+
+.searchButton {
+  border: none;
+  position: absolute;
+  height: 100%;
+  width: 5em;
+  text-align: center;
+  right: 0; }
+
+.searchBar {
+  border: none;
+  background: gray;
+  resize: none;
+  width: 50%;
+  height: 100%;
+  font-size: 34;
+  opacity: 80%;
+  display: flex;
+  margin: 0 auto; }
+
+.MenuContainer {
+  background: #4f5359;
+  width: 100%;
+  height: 3em;
+  position: absolute;
+  top: 0; }
 
 /*# sourceMappingURL=app.css.map*/
