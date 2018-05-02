@@ -3,9 +3,10 @@ import * as expressWs from "express-ws";
 
 let app: express.Application = express();
 
+
 app.get("/", (req, res) => {
     res.set("Content-Type", "text/html");
-    res.send(new Buffer("<html><body><script src=\"app.js\"></script></body></html>"));
+    res.send(new Buffer(`<html><head><link href=\"app.css\" rel=\"stylesheet\ type=\"text/css\"></head><body><script src=\"app.js\"></script></body></html>`));
 });
 
 app.use(express.static("build"));
